@@ -1,1 +1,2 @@
-export { default } from  './Button';
+// export { EZButton } from './Button';
+export { Demo } from './Demo';

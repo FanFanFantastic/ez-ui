@@ -1,5 +1,3 @@
-// export * from './components'
-
 
 import React from 'react';
 import * as styles from './index.css';
