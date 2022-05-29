@@ -1,6 +1,6 @@
 {
   "name": "ezui4u",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "an ez ui-lib for everyone",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --config config/webpack.dev.config.js",
     "build": "npx babel src --out-dir lib",
     "build:webpack": "webpack --config config/webpack.prod.config.js",
-    "publish": "npm run build && npm publish"
+    "ezpub": "npm run build && npm publish"
   },
   "author": "Jiongming Fan",
   "license": "ISC",
