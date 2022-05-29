@@ -1,6 +1,6 @@
 {
   "name": "ezui4u",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "an ez ui-lib for everyone",
   "main": "index.js",
   "scripts": {

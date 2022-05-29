@@ -1,4 +1,6 @@
 src
+config
+example
 build
 .babelrc
 webpack.config.js
