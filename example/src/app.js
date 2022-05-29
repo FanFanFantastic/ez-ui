@@ -2,8 +2,15 @@
 /*** examples/src/app.js ***/
 import React from 'react';
 import { render } from 'react-dom';
-import Demo from '../../src'; // 引入组件
+import { Demo, Button } from '../../src'; // 引入组件
 
-const App = () => <Demo />
+const App = () => {
+    return (
+        <>
+        <Demo />
+        <Button label={"example"}/>
+        </>
+    )
+}
 
 render(<App />, document.getElementById('root'))

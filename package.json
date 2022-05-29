@@ -2,11 +2,12 @@
   "name": "ezui4u",
   "version": "1.0.0",
   "description": "an ez ui-lib for everyone",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config config/webpack.dev.config.js", 
-    "build": "webpack --config config/webpack.prod.config.js",
+    "start": "webpack-dev-server --config config/webpack.dev.config.js",
+    "build": "npx babel src --out-dir lib",
+    "build:webpack": "webpack --config config/webpack.prod.config.js",
     "publish": "npm run build && npm publish"
   },
   "author": "Jiongming Fan",

@@ -1,2 +1,2 @@
-// export { EZButton } from './Button';
-export { Demo } from './Demo';
+// export { Button } from './Button';
+// export { Demo } from './Demo';

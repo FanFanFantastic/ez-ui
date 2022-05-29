@@ -6,4 +6,4 @@ class Demo extends React.Component{
     return <div className={styles.wrapper}>hello world</div>
   }
 }
-export default Demo;
+export { Demo };
